@@ -1,0 +1,10 @@
+{
+  "name": "LoadAgent",
+  "description": "Load agent",
+  "dependencies": {
+    "ini": "1.x",
+    "jsdom": "1.0.2",
+    "node-libcurl": "^1.0.0",
+    "process": "*"
+  }
+}
