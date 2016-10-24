@@ -61,6 +61,18 @@ MyCustomTest.prototype.runTest = function( redlineCallback )
 # Output
 The load test will generate local information on performance results and errors.
 
-# Running on 
+# Running on RedLine13.com
+When launching on RedLine13 you only upload
+- package.json - if you need any packages
+- 'YourTest.js' - your custom test source file
+- Extra files - any extra files you might need.
+
+The following files should not be uploaded, the versions in this repo are for the harness and will causes issues if added to test.
+- loadtest.ini - this is built dynamically by redline13 and other redline parameters are bundled inside
+- loadTestingSession.js - Wrapper for running tests with cookies
+- loadTestingHttpRequest.js - Wrapper for doing http requests via CURL
+- redlineApi.js - the production version handles more details regarding talking to redline13 stats aggregator
+- singlePageLoadTester.js - a wrapper for testing single pages
+
 # More on Custom Performance Tests
 https://www.redline13.com/blog/writing-a-custom-load-test/
