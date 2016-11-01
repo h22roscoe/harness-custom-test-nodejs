@@ -66,7 +66,7 @@ var LoadTester =
 		var waitStartDelay = 1000;
 		console.log("Starting test in " + waitStartDelay + "ms.");
 		setTimeout(function() {
-			for (var i = 0; i < that.numTests; i++) {
+			for (var i = 1; i <= that.numTests; i++) {
 				that.runTest( that, i, testClass );
 			}
 		}, waitStartDelay);
