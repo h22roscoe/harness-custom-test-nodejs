@@ -2,6 +2,7 @@ An offline tester to validate your custom PHP RedLine13 Load Test.
 
 # Quick Start
 ### Specify test on Command Line
+* Use Node 6.x or 8.x
 * npm install
 * node loadTester [#TESTS] [TEST CLASS FILE]
 * node loadTester 1 CustomTestSimple.js

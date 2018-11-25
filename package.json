@@ -1,10 +1,12 @@
 {
   "name": "LoadAgent",
   "description": "Load agent",
+  "engines" : { "node" : ">=6" },
+  "engineStrict" : true,
   "dependencies": {
     "ini": "1.x",
-    "jsdom": "1.0.2",
-    "node-libcurl": "^1.0.0",
+    "jsdom": "*",
+    "node-libcurl": "*",
     "process": "*"
   }
 }
